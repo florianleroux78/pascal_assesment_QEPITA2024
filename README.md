@@ -46,13 +46,12 @@ To run the program, follow these steps:
     - The radius of interference for each node.
 
 2. **Build the Graph**
-Using Pulser, construct the graph based on the input data. For better comprehension, the graph is also visualized using Matplotlib.
+Using Pulser, construct the graph based on the input data. For better vizualisation, the graph is also visualized using Matplotlib.
 
 3. **Define the MIS Solver**
 Implement the Maximum Independent Set (MIS) solver, which identifies the largest set of nodes that are not connected to each other. This is a key step in solving the problem.
 
 4. **Color the Graph**
-
 Apply the MIS solver iteratively to color the graph.
 Each iteration assigns a unique color to nodes removed by the MIS solver.
 This ensures all adjacent nodes have distinct colors.
