@@ -55,3 +55,8 @@ Implement the Maximum Independent Set (MIS) solver, which identifies the largest
 Apply the MIS solver iteratively to color the graph.
 Each iteration assigns a unique color to nodes removed by the MIS solver.
 This ensures all adjacent nodes have distinct colors.
+
+
+## Contributors
+- Subject by mauro.darcangelo@pasqal.com
+- Work by Hugo Hubert, Lucas Favre, Florian Le Roux
